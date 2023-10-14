@@ -1,0 +1,62 @@
+body {
+	background-color:#529add;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	font: bold 18px/25px Arial, sans-serif;
+}
+
+h1 {
+	font: bold 40px/50px Arial, sans-serif;
+	text-align: center;
+	color:black;
+}
+
+button {
+	border: 5px, solid black;
+	margin: 2px;
+	padding: 0px;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	height: 100px;
+	font: bold 25px/25px Arial, sans-serif;
+    background-color: #D3D3D3;	
+	color: black; 
+	
+	text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+ 
+	-webkit-box-shadow: 0px 0px 0px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+	box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+ 
+	-webkit-transition: all 0.15s ease;
+	-moz-transition: all 0.15s ease;
+	transition: all 0.15s ease;					
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  
+}
+
+/* Float the buttons side by side */
+.btn-group button {
+  float: left; 
+}
+
+/* Prevent double borders */
+.btn-group button:not(:last-child) {
+  border-right: none; 
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
